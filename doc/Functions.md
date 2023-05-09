@@ -14,10 +14,10 @@ Mint new tokens
 Mint new tokens in a batch
 
 |Name|Type|Description|Example|Default|
-|--- |---|---|
+|--- |---|---|---|---|
 |to|address|The token receiver||N/A|
-|ids|uint256|The token ids||N/A|
-|amounts|uint256|The tokens amounts||N/A|
+|id|uint256|The id of the token||N/A|
+|amount|uint256|The amount of tokens||N/A|
 |data|bytes|Optional data field||N/A|
 
 ## pause
