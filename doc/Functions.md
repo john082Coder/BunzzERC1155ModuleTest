@@ -1,43 +1,36 @@
 # WRITE(main)
 
-## safeTransferFrom
-Safely transfers the ownership of a given token ID
+## mint
+Mint new tokens
 
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
-|from|address|The token sender||N/A|
 |to|address|The token receiver||N/A|
-|id|uint256|The id of the token that will be sent||N/A|
-|amount|uint256|The amount of the token that will be sent||N/A|
+|id|uint256|The id of the token||N/A|
+|amount|uint256|The amount of tokens||N/A|
 |data|bytes|Optional data field||N/A|
 
-## safeBatchTransferFrom
-Safely transfers the ownership of a given multiple token IDs.
+## mintBatch
+Mint new tokens in a batch
 
-|Name|Type|Description|
+|Name|Type|Description|Example|Default|
 |--- |---|---|
-|from|address|The address of the token sender|
-|to|address|The address of the token receiver|
-|ids|uint256[]|The ids of the token that will be sent|
-|amounts|uint256[]|The amounts of the token that will be sent|
-|data|bytes|Optional data field|
+|to|address|The token receiver||N/A|
+|ids|uint256|The token ids||N/A|
+|amounts|uint256|The tokens amounts||N/A|
+|data|bytes|Optional data field||N/A|
 
-## _setURI
-Set base uri of nft token
+## pause
+Pause all operations
 
-|Name|Type|Description|
-|--- |---|---|
-|newuri|string|The new uri string|
+No arguments
 
 
-## setApprovalForAll
+## unpause
 
-Sets or unsets the approval of a given operator An operator is allowed to transfer all tokens of the sender on their behalf.
+Unpause all operations
 
-|Name|Type|Description|
-|--- |---|---|
-|operator|address|The account that will be the balance operator|
-|approved|bool|Approval status|
+No arguments
 
 
 ## _mint
