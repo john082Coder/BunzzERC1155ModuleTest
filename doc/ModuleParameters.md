@@ -1,4 +1,4 @@
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
-|uri_|string|Provides an base uri for your nft token|[]|N/A|
+|uri|string|Provides the metadata link, https://docs.bunzz.dev/product-docs/module/nft/uri-argument-base-token-uri|[]|N/A|
 

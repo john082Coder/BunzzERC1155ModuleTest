@@ -1,2 +1,2 @@
-mint, mintSingle, mintBatch, burnBatch
+mint, mintBatch, burn, burnBatch, pause, unpause
 
