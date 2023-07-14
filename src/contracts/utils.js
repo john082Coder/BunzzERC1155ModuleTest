@@ -67,7 +67,6 @@ export const getReleasableAmount = async (vestingWalletContract) => {
 }
 
 
-
 export const mint = async (erc1155Contract, to, id, amount,  data, account) => {
   console.log("ID = ", id);
   return erc1155Contract.methods.mint(to, id, amount, data).send({ from: account})
